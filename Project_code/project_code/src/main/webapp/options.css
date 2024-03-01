@@ -1,0 +1,65 @@
+/* CSS for the body */
+.title {
+  display: flex;
+  background: #000080;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 30px;
+  height: 120px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* CSS for the h1 heading */
+h1 {
+    color: #007BFF; /* You can change the color code to your preferred color */
+}
+
+/* CSS for the anchor tags (links) */
+a {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;/* You can change the color code to your preferred color */
+    color: white; /* You can change the color code to your preferred color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+.buttons {
+  padding: 10px;
+  border-color: black;
+  background-color: #007BFF;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: space-around;
+}
+button {
+  background-color: #007BFF; /* Green */
+  border-color: #1b1141;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(14, 9, 6, 0.8);
+}
+/* CSS for the anchor tags on hover */
+a:hover{
+	background-color: rgba(14, 9, 6, 0.8);	
+}
+
+/* Optional: Add some margin and padding to the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
